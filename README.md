@@ -2,7 +2,7 @@
 
 *A multi-phase Python pipeline simulating, cleaning, and analyzing high-speed Porsche telemetry on the German Autobahn.**
 
-## 🧠 Project Overview
+## Project Overview
 This project evolves from a raw Python simulation script into a highly structured Data Engineering pipeline, paving the way for predictive Machine Learning. Instead of downloading a clean, pre-made dataset, I built a custom engine to generate realistic sensor data, intentionally corrupted it, and built a pipeline to clean and visualize the results. 
 
 **The Core Architecture:** `Simulate → Corrupt → Clean → Analyze → Predict`
@@ -28,5 +28,5 @@ Transforms 500+ rows of raw generated data into actionable business intelligence
 
 ---
 
-## 🔮 Future Scope: Phase 3 (Machine Learning)
+## Future Scope: Phase 3 (Machine Learning)
 The pipeline is currently primed and ready for Phase 3, where this cleaned DataFrame will be fed into a Predictive AI model to forecast engine failures before they occur.
