@@ -1,24 +1,24 @@
-Autobahn Telemetry Analysis
+# Autobahn Telemetry Analysis
 
-A multi-phase Python pipeline simulating, cleaning, and analyzing high-speed Porsche telemetry on the German Autobahn.
+**A multi-phase Python pipeline simulating, cleaning, and analyzing high-speed Porsche telemetry on the German Autobahn.**
 
 ## 🧠 Project Overview
 This project evolves from a raw Python simulation script into a highly structured Data Engineering pipeline, paving the way for predictive Machine Learning. Instead of downloading a clean, pre-made dataset, I built a custom engine to generate realistic sensor data, intentionally corrupted it, and built a pipeline to clean and visualize the results. 
 
-**The Core Architecture:** Simulate → Corrupt → Clean → Analyze → Predict
+**The Core Architecture:** `Simulate → Corrupt → Clean → Analyze → Predict`
 
-### 🛠️ Tech Stack & Skills
+### Tech Stack & Skills
 * **Languages:** Python 3
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Random, Datetime
-* **Core Skills:** Data Imputation (NaN handling), Boolean Filtering, Forensic Logging, Data Visualization, System Architecture.
+* **Core Skills:** Data Imputation (`NaN` handling), Boolean Filtering, Forensic Logging, Data Visualization, System Architecture.
 
 
 
 ## Phase 1: The Telemetry Sensor Engine
 A modular Python loop that mimics an onboard vehicle computer generating live data.
 * **Live Sensors:** Generates continuous readouts for Speed (km/h), Engine Temp (°C), and Oil Pressure (atm).
-* **The "Chef" Logic:** Uses complex if/elif gates to detect critical thresholds (e.g., Police Radar ranges, Critical Engine Overheating).
-* **The Black Box:** Automatically logs anomaly data into a persistent 'telemetry_logs.txt' file for forensic review.
+* **The "Chef" Logic:** Uses complex `if/elif` gates to detect critical thresholds (e.g., Police Radar ranges, Critical Engine Overheating).
+* **The Black Box:** Automatically logs anomaly data into a persistent `telemetry_logs.txt` file for forensic review.
 
 ## 📊 Phase 2: The Data Refinery & Visualization
 Transforms 500+ rows of raw generated data into actionable business intelligence using **Pandas**.
@@ -28,5 +28,5 @@ Transforms 500+ rows of raw generated data into actionable business intelligence
 
 ---
 
-##  Future Scope: Phase 3 (Machine Learning)
+## 🔮 Future Scope: Phase 3 (Machine Learning)
 The pipeline is currently primed and ready for Phase 3, where this cleaned DataFrame will be fed into a Predictive AI model to forecast engine failures before they occur.
