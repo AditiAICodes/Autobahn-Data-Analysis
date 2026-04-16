@@ -1,6 +1,6 @@
 # Autobahn Telemetry Analysis
 
-*A multi-phase Python pipeline simulating, cleaning, and analyzing high-speed Porsche telemetry on the German Autobahn.**
+*Simulated high-speed vehicle telemetry inspired by German Autobahn conditions**
 
 ## Project Overview
 This project evolves from a raw Python simulation script into a highly structured Data Engineering pipeline, paving the way for predictive Machine Learning. Instead of downloading a clean, pre-made dataset, I built a custom engine to generate realistic sensor data, intentionally corrupted it, and built a pipeline to clean and visualize the results. 
