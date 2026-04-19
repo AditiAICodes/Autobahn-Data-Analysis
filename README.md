@@ -28,5 +28,3 @@ Transforms 500+ rows of raw generated data into actionable business intelligence
 
 ---
 
-## Future Scope: Phase 3 (Machine Learning)
-The pipeline is currently primed and ready for Phase 3, where this cleaned DataFrame will be fed into a Predictive AI model to forecast engine failures before they occur.
