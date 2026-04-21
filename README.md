@@ -112,7 +112,7 @@ System reliability improves by prioritizing fault detection over overall accurac
 > **Key Insight:** A lower accuracy model can be better if it detects more real failures. This is critical in safety systems where **missing a fault = catastrophic**, but **false alarms = acceptable**.
 
 ###  Model Output & Deployment
-The trained model is exported as a serialized file: `engine_failure_model.joblib`. 
+The trained model is exported as a serialized file: `Autobahn_ai_model.joblib`. 
 This represents the final trained AI system, ready for reuse, deployment, and integration into applications.
 
 ---
