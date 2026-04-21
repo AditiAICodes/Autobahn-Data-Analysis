@@ -108,6 +108,7 @@ Applied **Synthetic Minority Over-sampling Technique (SMOTE)**.
 | **Recall** | ↑ Significantly Improved |
 | **Safety** | ↑ Maximized |
 
+System reliability improves by prioritizing fault detection over overall accuracy
 > **Key Insight:** A lower accuracy model can be better if it detects more real failures. This is critical in safety systems where **missing a fault = catastrophic**, but **false alarms = acceptable**.
 
 ###  Model Output & Deployment
