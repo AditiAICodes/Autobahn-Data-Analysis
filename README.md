@@ -66,7 +66,7 @@ The baseline model uses a **Random Forest** classifier.
 * Ensures the model does not gain unfair knowledge of unseen data.
 
 ### 📊 Baseline Results
-* **Accuracy:** ~63.5%
+* **Accuracy:** ~63.5% - Prioritized Recall over Accuracy to ensure engine failures are not missed (False Negatives).
 * **Observation:** Model showed **bias toward the majority class** (healthy engines).
 
 > ** Key Insight:** Despite multiple sensors, the model struggled to clearly separate healthy vs faulty engines. **Raw telemetry signals alone are insufficient for high-confidence failure prediction.**
