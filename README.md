@@ -23,7 +23,7 @@ A modular Python loop that mimics an onboard vehicle computer generating live da
 ## 📊 Phase 2: The Data Refinery & Visualization
 Transforms 500+ rows of raw generated data into actionable business intelligence using **Pandas**.
 * **Intentional Data Corruption:** Simulated real-world messy data by injecting `NaN` voids, typographical errors ("Trakk" instead of "Track"), and impossible sensor glitches (999 km/h).
-* **Data Cleaning (The Janitor):** Utilized `.loc`, `.isna()`, `.fillna()`, and `.replace()` to mathematically patch missing data (using fleet averages) and recalibrate broken sensors without losing rows.
+* **Data Cleaning :** Utilized `.loc`, `.isna()`, `.fillna()`, and `.replace()` to mathematically patch missing data (using fleet averages) and recalibrate broken sensors without losing rows.
 * **Visualization:** Built color-coded Seaborn Barplots and Matplotlib Pie Charts to visually prove correlations between specific driver modes and engine overheating risks.
 
 ---
