@@ -91,6 +91,7 @@ Applied **Synthetic Minority Over-sampling Technique (SMOTE)**.
 * Generates synthetic minority (faulty) samples
 * Interpolates between existing fault cases
 * Balances dataset without duplication
+Note: SMOTE was applied only on training data to prevent evaluation leakage and maintain realistic performance estimation.
 
 ### ⚙️ Updated Pipeline
 `Train/Test Split -> Apply SMOTE (Train Only) -> Scaling -> Model Training -> Evaluation`
