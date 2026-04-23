@@ -134,12 +134,6 @@ This project demonstrates a full-stack journey from raw simulation to real-world
 
 > **🧭 Core Learning:** The limiting factor in Machine Learning is often the data, not the model.
 
-###  Future Improvements
-* Incorporate vibration/acoustic sensors
-* Use time-series modeling (trend-based failure detection)
-* Apply advanced models (e.g., sequence models, deep learning)
-* Transition to high-quality datasets (e.g., aerospace telemetry)
-
 ### 📌 Project Summary
 This is not just a predictive model. It is a systematic investigation into how data quality, feature design, and imbalance affect real-world Machine Learning systems.
 
